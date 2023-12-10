@@ -1,7 +1,7 @@
 # CTD-Sat
 The official implementation of "Conv-fusion Transformer with Distribution Contrast Loss for Surface Depth Estimation from Multi-view Stereo Satellite Images”
 <br>
-The experimental results are available here, and the full code will be made publicly available upon acceptance.
+The experimental results are available here, and the full code will be made publicly available upon acceptance. The weights files are available <a href="https://github.com/ZYangChen/CTD-Sat/releases/tag/checkpints">here</a>.
 ## Environment preparation
 ```Shell
 conda create -n sat1 python=3.7
