@@ -1,4 +1,7 @@
 # Conv-fusion Transformer with Distribution Contrast Loss
+<div align="center">
+  <img width="400", src="./CTD-Sat_for_WHU-TLC/TLC.jpg">
+</div>
 The official implementation of "Conv-fusion Transformer with Distribution Contrast Loss for Surface Depth Estimation from Multi-view Stereo Satellite Images”
 <br>
 The experimental results are available <a href="https://github.com/ZYangChen/Conv-fusion-Transformer-with-Distribution-Contrast-Loss/releases/tag/result">here</a>, and the full code will be made publicly available upon acceptance. The weights files are available <a href="https://github.com/ZYangChen/CTD-Sat/releases/tag/checkpints">here</a>.
