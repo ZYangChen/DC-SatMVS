@@ -5,8 +5,8 @@ The experimental results are available <a href="https://github.com/ZYangChen/Con
 ## Model Zoo
 ## Environment preparation
 ```Shell
-conda create -n sat1 python=3.7
-conda activate sat1
+conda create -n CTD python=3.7
+conda activate CTD
 wget -c https://www.sqlite.org/2021/sqlite-autoconf-3340100.tar.gz
 tar -xvf sqlite-autoconf-3340100.tar.gz
 cd sqlite-autoconf-3340100
