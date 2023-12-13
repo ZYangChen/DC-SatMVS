@@ -1,6 +1,6 @@
 # Conv-fusion Transformer with Distribution Contrast Loss
 <div align="center">
-  <img width="400", src="./CTD-Sat_for_WHU-TLC/TLC.jpg">
+  <img width="1600", src="./CTD-Sat_for_WHU-TLC/TLC.jpg">
 </div>
 The official implementation of "Conv-fusion Transformer with Distribution Contrast Loss for Surface Depth Estimation from Multi-view Stereo Satellite Images”
 <br>
