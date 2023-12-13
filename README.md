@@ -14,6 +14,30 @@ The experimental results are available <a href="https://github.com/ZYangChen/Con
 | DTU  | available soon |<a href="https://github.com/ZYangChen/Conv-fusion-Transformer-with-Distribution-Contrast-Loss/releases/download/checkpints/DTU.ckpt">177MB</a> |4 * NIVIDA T4 |
 
 Due to the large differences in the datasets, we use different data processing methods and different warping methods, which leads to the full version of the code being slightly different when applying our method to the two datasets as above. However, it is important to emphasize that the core design of our code is consistent.
+
+## Data Preparation
+To evaluate/train RAFT-stereo, you will need to download the required datasets. 
+* [WHU-TLC](https://github.com/WHU-GPCV/SatMVS/blob/main/WHU_TLC/readme.md)
+* [DTU (training data)](https://drive.google.com/file/d/1eDjh-_bxKKnEuz5h-HXS7EDJn59clx6V/view)
+* [DTU (Depth raw)](https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/cascade-stereo/CasMVSNet/dtu_data/dtu_train_hr/Depths_raw.zip)
+* [DTU (testing data)](https://drive.google.com/file/d/1rX0EXlUL4prRxrRu2DgLJv2j7-tpUD4D/view?usp=sharing)
+
+By default `dataset_root` in `train.py`, we will search for the datasets in these locations. You can create symbolic links to wherever the datasets were downloaded in the `data` folder
+
+```Shell
+├── data
+    ├── TLC
+        ├── Open
+        ├── open_dataset_pinhole
+        ├── open_dataset_rpc
+    ├── DTU
+        ├── mvs_training
+            ├── Cameras
+            ├── Depths
+            ├── Depths_raw
+            ├── Rectified
+```
+Please rename the "open_dataset" to "open_dataset_rpc".
 ## Environment preparation
 ```Shell
 conda create -n CTD python=3.7
