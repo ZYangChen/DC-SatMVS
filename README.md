@@ -16,7 +16,7 @@ The experimental results are available <a href="https://github.com/ZYangChen/Con
 Due to the large differences in the datasets, we use different data processing methods and different warping methods, which leads to the full version of the code being slightly different when applying our method to the two datasets as above. However, it is important to emphasize that the core design of our code is consistent.
 
 ## Data Preparation
-To evaluate/train RAFT-stereo, you will need to download the required datasets. 
+To evaluate/train this method, you will need to download the required datasets. 
 * [WHU-TLC](https://github.com/WHU-GPCV/SatMVS/blob/main/WHU_TLC/readme.md)
 * [DTU (training data)](https://drive.google.com/file/d/1eDjh-_bxKKnEuz5h-HXS7EDJn59clx6V/view)
 * [DTU (Depth raw)](https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/cascade-stereo/CasMVSNet/dtu_data/dtu_train_hr/Depths_raw.zip)
