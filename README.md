@@ -38,7 +38,7 @@ By default `dataset_root` in `train.py`, we will search for the datasets in thes
             ├── Rectified
 ```
 
-## Environment preparation
+## Environment Preparation
 ```Shell
 conda create -n CTD python=3.7
 conda activate CTD
