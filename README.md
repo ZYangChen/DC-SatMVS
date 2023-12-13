@@ -17,7 +17,7 @@ Due to the large differences in the datasets, we use different data processing m
 
 ## Data Preparation
 To evaluate/train this method, you will need to download the required datasets. 
-* [WHU-TLC](https://github.com/WHU-GPCV/SatMVS/blob/main/WHU_TLC/readme.md)
+* [WHU-TLC](https://github.com/WHU-GPCV/SatMVS/blob/main/WHU_TLC/readme.md) Please rename the "open_dataset" to "open_dataset_rpc".
 * [DTU (training data)](https://drive.google.com/file/d/1eDjh-_bxKKnEuz5h-HXS7EDJn59clx6V/view)
 * [DTU (Depth raw)](https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/cascade-stereo/CasMVSNet/dtu_data/dtu_train_hr/Depths_raw.zip)
 * [DTU (testing data)](https://drive.google.com/file/d/1rX0EXlUL4prRxrRu2DgLJv2j7-tpUD4D/view?usp=sharing)
@@ -37,7 +37,7 @@ By default `dataset_root` in `train.py`, we will search for the datasets in thes
             ├── Depths_raw
             ├── Rectified
 ```
-Please rename the "open_dataset" to "open_dataset_rpc".
+
 ## Environment preparation
 ```Shell
 conda create -n CTD python=3.7
