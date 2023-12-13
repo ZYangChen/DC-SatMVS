@@ -3,6 +3,10 @@ The official implementation of "Conv-fusion Transformer with Distribution Contra
 <br>
 The experimental results are available <a href="https://github.com/ZYangChen/Conv-fusion-Transformer-with-Distribution-Contrast-Loss/releases/tag/result">here</a>, and the full code will be made publicly available upon acceptance. The weights files are available <a href="https://github.com/ZYangChen/CTD-Sat/releases/tag/checkpints">here</a>.
 ## Model Zoo
+|  Dataset   | Code  | Weight  |  Condition  |
+|  :----:  | :----:  |:----:  |:----:  |
+| WHU-TLC  | available soon |<a href="https://github.com/ZYangChen/Conv-fusion-Transformer-with-Distribution-Contrast-Loss/releases/download/checkpints/WHU_TLC.ckpt">46.7MB</a> |1 * NIVIDA A6000 |
+| DTU  | available soon |<a href="https://github.com/ZYangChen/Conv-fusion-Transformer-with-Distribution-Contrast-Loss/releases/download/checkpints/DTU.ckpt">177MB</a> |4 * NIVIDA T4 |
 ## Environment preparation
 ```Shell
 conda create -n CTD python=3.7
