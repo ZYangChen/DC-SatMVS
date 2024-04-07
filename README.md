@@ -1,7 +1,7 @@
 # DC-SatMVS
 
 <div align="center">
-  <img width="1600", src="./CTD-Sat_for_WHU-TLC/TLC.jpg">
+  <img width="1600", src="./TLC.jpg">
 </div>
 
 The official implementation of "Surface Depth Estimation from Multi-view Stereo Satellite Images with Distribution Contrast Network”
