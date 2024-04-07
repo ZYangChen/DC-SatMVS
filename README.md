@@ -1,10 +1,10 @@
-# Conv-fusion Transformer with Distribution Contrast Loss
+# DC-SatMVS
 
 <div align="center">
   <img width="1600", src="./CTD-Sat_for_WHU-TLC/TLC.jpg">
 </div>
 
-The official implementation of "Conv-fusion Transformer with Distribution Contrast Loss for Surface Depth Estimation from Multi-view Stereo Satellite Images”
+The official implementation of "Surface Depth Estimation from Multi-view Stereo Satellite Images with Distribution Contrast Network”
 <br>
 The experimental results are available <a href="https://github.com/ZYangChen/Conv-fusion-Transformer-with-Distribution-Contrast-Loss/releases/tag/result">here</a>, and the full code will be made publicly available upon acceptance. 
 ## Model Zoo
