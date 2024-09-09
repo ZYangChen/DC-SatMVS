@@ -4,9 +4,16 @@
   <img width="1600", src="./TLC.jpg">
 </div>
 
-The official implementation of "Surface Depth Estimation from Multi-view Stereo Satellite Images with Distribution Contrast Network”
+The official implementation of "Surface Depth Estimation from Multi-view Stereo Satellite Images with Distribution Contrast Network”. The experimental results are available <a href="https://github.com/ZYangChen/Conv-fusion-Transformer-with-Distribution-Contrast-Loss/releases/tag/result">here</a>.
+
+> Surface Depth Estimation from Multi-view Stereo Satellite Images with Distribution Contrast Network<br>
+> [Ziyang Chen](https://zyangchen.github.io/), [Wenting Li](https://www.gzcc.edu.cn/jsjyxxgcxy/contents/3205/3569.html), [Zhongwei Cui](https://tongzhan.gznc.edu.cn/info/1015/3622.htm), [Yongjun Zhang](https://orcid.org/0000-0002-7534-1219)✱ <br>
+> IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing 2025 <br>
+> Correspondence: ziyangchen2000@gmail.com; zyj6667@126.com✱ <br>
+> <a href="" target='_blank'><img src="https://img.shields.io/badge/Paper-PDF-f5cac3?logo=adobeacrobatreader&logoColor=red"/></a>&nbsp;	
+
+
 <br>
-The experimental results are available <a href="https://github.com/ZYangChen/Conv-fusion-Transformer-with-Distribution-Contrast-Loss/releases/tag/result">here</a>, and the full code will be made publicly available upon acceptance. 
 ## Model Zoo
 |  Dataset   | Code  | Weight  |  Condition  |
 |  :----:  | :----:  |:----:  |:----:  |
@@ -122,3 +129,19 @@ pip install matplotlib
 pip install opencv-python
 pip install imageio
 ```
+
+## Train
+
+Train on WHU-TLC dataset using RPC warping:
+
+`python train.py --mode="train" --model="red" --geo_model="rpc" --dataset_root=[Your dataset root] --batch_size=1 --min_interval=[GSD(resolution of the image)] --gpu_id="0"`
+
+Train on WHU-TLC dataset using homography warping:
+
+`python train.py --mode="train" --model="red" --geo_model="pinhole" --dataset_root=[Your dataset root] --batch_size=1 --min_interval=[GSD(resolution of the image)] --gpu_id="0"`
+
+### Predict
+If you want to predict your own dataset, you need to If you want to predict on your own dataset, you need to first organize your dataset into a folder similar to the WHU-TLC dataset. And then run:
+
+`python predict.py --model="red" --geo_model="rpc" --dataset_root=[Your dataset] --loadckpt=[A checkpoint]`
+
