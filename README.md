@@ -47,8 +47,8 @@ By default `dataset_root` in `train.py`, we will search for the datasets in thes
 
 ## Environment Preparation
 ```Shell
-conda create -n CTD python=3.7
-conda activate CTD
+conda create -n DCSat python=3.7
+conda activate DCSat
 wget -c https://www.sqlite.org/2021/sqlite-autoconf-3340100.tar.gz
 tar -xvf sqlite-autoconf-3340100.tar.gz
 cd sqlite-autoconf-3340100
