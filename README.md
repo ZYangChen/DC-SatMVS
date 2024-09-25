@@ -10,7 +10,7 @@ The official implementation of "Surface Depth Estimation from Multi-view Stereo 
 > [Ziyang Chen](https://zyangchen.github.io/), [Wenting Li](https://www.gzcc.edu.cn/jsjyxxgcxy/contents/3205/3569.html)✱, [Zhongwei Cui](https://tongzhan.gznc.edu.cn/info/1015/3622.htm), [Yongjun Zhang](https://orcid.org/0000-0002-7534-1219)✱ <br>
 > IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing 2025 <br>
 > Correspondence: ziyangchen2000@gmail.com; 201520274@gzcc.edu.cn✱; zyj6667@126.com✱ <br>
-> <a href="https://github.com/ZYangChen/ZYangChen.github.io/manuscript/Surface_Depth_Estimation_from_Multi-view_Stereo_Satellite_Images_with_Distribution_Contrast_Network.pdf" target='_blank'><img src="https://img.shields.io/badge/Paper-PDF-f5cac3?logo=adobeacrobatreader&logoColor=red"/></a>&nbsp;	
+> <a href="https://zyangchen.github.io/manuscript/Surface_Depth_Estimation_from_Multi-view_Stereo_Satellite_Images_with_Distribution_Contrast_Network.pdf" target='_blank'><img src="https://img.shields.io/badge/Paper-PDF-f5cac3?logo=adobeacrobatreader&logoColor=red"/></a>&nbsp;	
 
 
 ## Model Zoo
