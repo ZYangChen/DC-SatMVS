@@ -144,3 +144,7 @@ If you want to predict your own dataset, you need to If you want to predict on y
 
 `python predict.py --model="red" --geo_model="rpc" --dataset_root=[Your dataset] --loadckpt=[A checkpoint]`
 
+## Acknowledgements
+<ul>
+<li>This project borrows the code from <strong><a href="https://github.com/WHU-GPCV/SatMVS">SatMVS</a></strong>. We thank the original authors for their excellent works!</li>
+</ul>
