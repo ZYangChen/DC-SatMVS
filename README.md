@@ -16,8 +16,8 @@ The official implementation of "Surface Depth Estimation from Multi-view Stereo 
 ## Model Zoo
 |  Dataset   | Weight  |  Condition  |
 |  :----:  | :----:  |:----:  |
-| WHU-TLC  | <a href="https://github.com/ZYangChen/Conv-fusion-Transformer-with-Distribution-Contrast-Loss/releases/download/checkpints/WHU_TLC.ckpt">46.7MB</a> |1 * NIVIDA A6000 |
-| DTU  | <a href="https://github.com/ZYangChen/Conv-fusion-Transformer-with-Distribution-Contrast-Loss/releases/download/checkpints/DTU.ckpt">177MB</a> |4 * NIVIDA T4 |
+| WHU-TLC  | <a href="https://drive.google.com/file/d/1HI8O6bIryDD3NFtjGt3Mb5qVMQRyX73j/view?usp=sharing">46.7MB</a> |1 * NIVIDA A6000 |
+| DTU  | <a href="https://drive.google.com/file/d/1r_Z0XwlifPCvyILHwFIhndeRvh8ek701/view?usp=drive_link">177MB</a> |4 * NIVIDA T4 |
 
 Due to the large differences in the datasets, we use different data processing methods and different warping methods, which leads to the full version of the code being slightly different when applying our method to the two datasets as above. However, it is important to emphasize that the core design of our code is consistent.
 
